@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="myapp/static/css/style.css">
+    <title>init page</title>
+    
+</head>
+<body>
+    <main>
+        <h1>Title</h1>
+        {% extends base %}
+        {% block contents %}
+        <div class="graph">
+            <div class="inner">
+                {{embed(roots.p)}}
+                {{embed(roots.p2)}}
+            </div>
+        </div>
+        {% endblock %}
+    </main>
+</body>
+</html>

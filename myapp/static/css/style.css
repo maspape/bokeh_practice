@@ -1,0 +1,15 @@
+h1{
+    font-size: 100px;
+    color: red;
+}
+main{
+    max-width: 2000px;
+}
+.graph{
+
+    background-color: aqua;
+    width: 1000px;
+    height: 400px;
+    z-index: 1000;
+    margin: 0 atuo;
+}
